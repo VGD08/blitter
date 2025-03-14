@@ -1,42 +1,18 @@
 body{
-    background: #3a3939;
     margin: 0;
     padding: 0;
-    max-width: 100%;
-    max-height: 100%;
-    font-family: Arial, sans-serif;
+    background: #B8C5CD;
 }
 
-/*nav styling*/
-.navBar{
-    height: 100vh;
-    display: flex;
-    width: 8vw;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 0.8rem;
-    align-items: center;
-    background: #BAC5CB;
-    img{
-        width: 5vw;
-    }
-    a{
-        text-decoration: none;
-        color: Blue;
-        margin: 0;
-        padding: 0;
-        font-weight: bold;
-        text-shadow: 1px 2px 2px black;
-    }
-    #tweetButton{
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 5px;
-        font-size: 1.3rem;
-        padding-bottom: 5px;
-        background: royalblue;
-        border: black solid 1px;
-        border-radius: 10px;
-        border-radius: 25px;
-    }
+.login-box{
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 35vw;
+    height: 90vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 10px #656565;
 }
