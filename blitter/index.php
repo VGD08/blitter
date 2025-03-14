@@ -10,9 +10,23 @@
 </head>
 <body>
 
+
 <!--Login Page-->
-<div class="login-box">
-    </div>
+<div class="login-container">
+    <img src="assets/Blitter.jpeg" alt="">
+    <h2>Login</h2>
+    <form class="login-form" method="post" action="../blitter/php/login-php.php">
+        <div class="input-group">
+            <label for="username">Username/Email</label>
+            <input type="Email" id="username" required placeholder="example@gmail.com">
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" required placeholder="ExamplePassword2@">
+        </div>
+        <button type="submit">Log in</button>
+        <h2 id="copyright">© Blitter. All rights reserved.</h2>
+    </form>
 </div>
 </body>
 </html>
